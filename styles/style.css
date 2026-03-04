@@ -1,0 +1,120 @@
+body {
+    background-color: #1491f7;
+    margin: 0;
+}
+
+header {
+    background-color: #3ba7ff;
+    text-align: center;
+    color: white;
+} 
+
+.nombre {
+    text-align: center;
+    color: #ffffff;
+    padding:0 0 2px 0;
+    font-family: "Zalando Sans Expanded", sans-serif;
+}
+
+hr {
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 75px;
+    margin-top: 0;
+    font-family: "Zalando Sans Expanded", sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: 60px;
+    margin: 3px;
+    font-family: "Zalando Sans Expanded", sans-serif;
+}
+
+.descripcion {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    height: 300px; 
+    object-fit: cover;
+    width: 40%;
+    border: solid 3px;
+}
+
+main {
+    display: flex;
+
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+aside {
+    width: 20%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botones {
+    margin: 20px;
+    padding: 35px 25px;
+    border-radius: 100%;
+    background: #3ba7ff;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Zalando Sans Expanded", sans-serif;
+}
+
+.contenido {
+    width: 80%;
+    background: #5db6ff;
+    color: white;
+    padding: 40px;
+}
+
+.info {
+    display: none;
+}
+
+
+#f1843:checked~.contenido .info1843,
+#f1854:checked~.contenido .info1854,
+#f1921:checked~.contenido .info1921,
+#f1936:checked~.contenido .info1936,
+#f1950:checked~.contenido .info1950,
+#f1956:checked~.contenido .info1956,
+#f1958:checked~.contenido .info1958,
+#f1966:checked~.contenido .info1966 {
+    display: block;
+}
+
+
+/* 1843 */
+.contenedor1, .contenedor2 {
+    display: flex;
+    padding: 20px;
+}
+
+.contenedor1 div, .contenedor2 div {
+    padding: 5%;
+    text-align: end;
+}
+
